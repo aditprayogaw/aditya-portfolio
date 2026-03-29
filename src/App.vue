@@ -6,6 +6,7 @@ import HeroSection from './sections/HeroSection.vue'
 import ProjectSection from './sections/ProjectSection.vue'
 import ExperienceSection from './sections/ExperienceSection.vue'
 import SkillSection from './sections/SkillSection.vue'
+import ContactSection from './sections/ContactSection.vue'
 
 import Footer from './components/layout/Footer.vue'
 </script>
@@ -19,6 +20,7 @@ import Footer from './components/layout/Footer.vue'
       <ProjectSection />
       <ExperienceSection />
       <SkillSection />
+      <ContactSection />
     </main>
 
     <Footer />

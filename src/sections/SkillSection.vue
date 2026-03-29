@@ -6,13 +6,13 @@ import { Palette, Sparkles, Flame } from 'lucide-vue-next' // Tambahan manual ji
 <template>
     <section id="skills" class="py-24 px-6 relative">
         <div class="max-w-5xl mx-auto">
-            <div class="flex items-center gap-6 mb-16">
+            <div class="flex items-center gap-6 mb-16" data-aos="fade-right">
                 <h2 class="text-2xl font-black text-slate-900 uppercase">Skill Set</h2>
                 <div class="h-[1px] flex-1 bg-slate-200"></div>
             </div>
 
             <div class="space-y-16">
-                <div v-for="category in skillCategories" :key="category.title" class="group">
+                <div v-for="category in skillCategories" :key="category.title" class="group" data-aos="fade-up">
                     <h3 class="text-[10px] font-black uppercase text-slate-400 mb-8 flex items-center gap-4">
                         {{ category.title }}
                         <span class="h-[1px] w-8 bg-slate-200 group-hover:w-16 transition-all duration-500"></span>

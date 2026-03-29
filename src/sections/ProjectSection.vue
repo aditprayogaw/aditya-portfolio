@@ -6,14 +6,14 @@ import { ArrowUpRight } from 'lucide-vue-next'
 <template>
     <section id="projects" class="py-24 px-6 relative">
         <div class="max-w-5xl mx-auto">
-            <div class="flex items-center gap-6 mb-16">
-                <h2 class="text-2xl font-black text-slate-900 uppercase tracking-widest">Selected Work</h2>
+            <div class="flex items-center gap-6 mb-16" data-aos="fade-right">
+                <h2 class="text-2xl font-black text-slate-900 uppercase">Projects</h2>
                 <div class="h-[1px] flex-1 bg-slate-200"></div>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div v-for="project in projects" :key="project.id"
-                    class="group glass p-10 rounded-[3rem] hover:bg-white/80 transition-all duration-500 hover:-translate-y-2 relative">
+                    class="group glass p-10 rounded-[3rem] hover:bg-white/80 transition-all duration-500 hover:-translate-y-2 relative" data-aos="fade-up">
                     <div
                         class="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity rounded-[3rem]">
                     </div>

@@ -14,7 +14,7 @@ const socialLinks = [
         <div class="max-w-5xl mx-auto">
 
             <div
-                class="relative bg-slate-950 rounded-[4rem] p-12 md:p-24 overflow-hidden text-center shadow-[0_50px_100px_-20px_rgba(79,70,229,0.2)]">
+                class="relative bg-slate-950 rounded-[4rem] p-12 md:p-24 overflow-hidden text-center shadow-[0_50px_100px_-20px_rgba(79,70,229,0.2)]" data-aos="fade-up">
                 <div class="absolute -top-24 -left-24 w-64 h-64 bg-indigo-600/30 blur-[100px]"></div>
                 <div class="absolute -bottom-24 -right-24 w-64 h-64 bg-pink-600/20 blur-[100px]"></div>
 
