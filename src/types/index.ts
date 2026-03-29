@@ -4,7 +4,7 @@ export interface Project {
   id: number
   title: string
   description: string
-  category: 'Web App' | 'Mobile' | 'Design' | 'E-Commerce'
+  category: 'Web App' | 'Mobile' | 'Design' | 'E-Commerce' | 'Security'
   tags: string[]
   icon: Component
   link?: string
