@@ -1,8 +1,8 @@
-import { 
-  LayoutDashboard, 
-  ShoppingBag, 
-  ShieldCheck, 
-  Zap 
+import {
+  Zap,
+  LayoutDashboard,
+  ShieldCheck,
+  ShoppingBag
 } from 'lucide-vue-next'
 import type { Project } from '../types'
 
@@ -10,7 +10,7 @@ export const projects: Project[] = [
   {
     id: 1,
     title: 'TimeClip AI',
-    description: 'Platform clipping video yang terintegrasi dengan AI Gemini untuk mempermudah user dalam membuat konten video pendek dari video durasi panjang.',
+    description: 'projects.timeclip.desc', // Gunakan key i18n
     category: 'Web App',
     tags: ['Front-End', 'Vue 3', 'Tailwind CSS', 'Inertia'],
     icon: Zap,
@@ -19,7 +19,7 @@ export const projects: Project[] = [
   {
     id: 2,
     title: 'KodyaKost',
-    description: 'Platform pencarian kost yang terintegrasi dengan Budaya Lokal untuk mempermudah user dalam mencari informasi terkait kegiatan keagamaan di daerah tertentu.',
+    description: 'projects.kodyakost.desc', // Gunakan key i18n
     category: 'Web App',
     tags: ['Back-End', 'Laravel 12', 'MySQL'],
     icon: LayoutDashboard,
@@ -28,7 +28,7 @@ export const projects: Project[] = [
   {
     id: 3,
     title: 'Analisis Deteksi Wazuh',
-    description: 'Sistem deteksi intrusi yang terintegrasi dengan Wazuh untuk mempermudah Tim IT dalam mendeteksi intrusi pada sistem.',
+    description: 'projects.wazuh.desc', // Gunakan key i18n
     category: 'Security',
     tags: ['Wazuh', 'SIEM', 'Security', 'Linux'],
     icon: ShieldCheck,
@@ -37,7 +37,7 @@ export const projects: Project[] = [
   {
     id: 4,
     title: 'Vintage Marketplace',
-    description: 'Platform marketplace yang memiliki fitur dasar seperti Ratings, Review, Transaksi, dan lain sebagainya.',
+    description: 'projects.vintage.desc', // Gunakan key i18n
     category: 'E-Commerce',
     tags: ['Front-End', 'Vue 3', 'CSS', 'Firebase'],
     icon: ShoppingBag,

@@ -1,20 +1,19 @@
-export const experiences = [
+import type { Experience } from '../types'
+
+export const experiences: Experience[] = [
   {
+    id: 'instiki',
     company: 'Institut Bisnis dan Teknologi Indonesia',
-    role: 'Cyber Security',
     period: '2026 — Present',
-    description: 'Melakukan penelitian terkait keamanan siber dan pengembangan sistem keamanan pada website operasional insitusi.'
   },
   {
+    id: 'timedoor',
     company: 'PT. Timedoor Indonesia',
-    role: 'Fullstack Web Developer Internship',
     period: '2025 — Present',
-    description: 'Memperdalam skill dalam pengembangan web dan sistem informasi dengan menggunakan Vue.js sebagai Front-End dan Laravel sebagai Back-End.'
   },
   {
-    company: 'Pemerintah Badung',
-    role: 'Data Entry',
+    id: 'badung',
+    company: 'Pemerintah Kabupaten Badung',
     period: '2024',
-    description: 'Melakukan input data dan verifikasi data pada sistem informasi pemerintah daerah.'
   }
 ]
