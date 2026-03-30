@@ -1,37 +1,46 @@
-import { 
-  LayoutDashboard, 
-  ShoppingBag, 
-  ShieldCheck, 
-  Zap 
+import {
+  Zap,
+  LayoutDashboard,
+  ShieldCheck,
+  ShoppingBag
 } from 'lucide-vue-next'
 import type { Project } from '../types'
 
 export const projects: Project[] = [
   {
     id: 1,
-    title: 'Nebula Dashboard',
-    description: 'Platform analitik real-time dengan visualisasi data yang mendalam untuk perusahaan SaaS.',
+    title: 'TimeClip AI',
+    description: 'projects.timeclip.desc', // Gunakan key i18n
     category: 'Web App',
-    tags: ['Vue 3', 'TypeScript', 'D3.js'],
-    icon: LayoutDashboard,
+    tags: ['Front-End', 'Vue 3', 'Tailwind CSS', 'Inertia'],
+    icon: Zap,
     link: '#'
   },
   {
     id: 2,
-    title: 'Lumina Store',
-    description: 'Etalase e-commerce headless yang dioptimalkan untuk performa maksimal dan konversi tinggi.',
-    category: 'E-Commerce',
-    tags: ['Nuxt', 'Tailwind', 'Shopify'],
-    icon: ShoppingBag,
+    title: 'KodyaKost',
+    description: 'projects.kodyakost.desc', // Gunakan key i18n
+    category: 'Web App',
+    tags: ['Back-End', 'Laravel 12', 'MySQL'],
+    icon: LayoutDashboard,
     link: '#'
   },
   {
     id: 3,
-    title: 'Sentinel Guard',
-    description: 'Middleware autentikasi tingkat lanjut dengan dukungan multi-faktor dan audit logging.',
-    category: 'Web App',
-    tags: ['Go', 'Redis', 'PostgreSQL'],
+    title: 'Analisis Deteksi Wazuh',
+    description: 'projects.wazuh.desc', // Gunakan key i18n
+    category: 'Security',
+    tags: ['Wazuh', 'SIEM', 'Security', 'Linux'],
     icon: ShieldCheck,
+    link: '#'
+  },
+  {
+    id: 4,
+    title: 'Vintage Marketplace',
+    description: 'projects.vintage.desc', // Gunakan key i18n
+    category: 'E-Commerce',
+    tags: ['Front-End', 'Vue 3', 'CSS', 'Firebase'],
+    icon: ShoppingBag,
     link: '#'
   }
 ]
