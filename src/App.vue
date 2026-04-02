@@ -43,7 +43,7 @@ onMounted(() => {
       <HeroSection />
       <ProjectSection />
       <ExperienceSection />
-      <SkillSection />
+      <!-- <SkillSection /> -->
       <ContactSection />
     </main>
     <Footer />

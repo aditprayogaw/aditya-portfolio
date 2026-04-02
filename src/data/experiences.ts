@@ -1,11 +1,11 @@
 import type { Experience } from '../types'
 
 export const experiences: Experience[] = [
-  {
-    id: 'instiki',
-    company: 'Institut Bisnis dan Teknologi Indonesia',
-    period: '2026 — Present',
-  },
+  // {
+  //   id: 'instiki',
+  //   company: 'Institut Bisnis dan Teknologi Indonesia',
+  //   period: '2026 — Present',
+  // },
   {
     id: 'timedoor',
     company: 'PT. Timedoor Indonesia',

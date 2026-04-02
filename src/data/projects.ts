@@ -23,17 +23,17 @@ export const projects: Project[] = [
     category: 'Web App',
     tags: ['Back-End', 'Laravel 12', 'MySQL'],
     icon: LayoutDashboard,
-    link: '#'
+    link: 'https://github.com/aditprayogaw/kodyakost-api'
   },
-  {
-    id: 3,
-    title: 'Analisis Deteksi Wazuh',
-    description: 'projects.wazuh.desc', // Gunakan key i18n
-    category: 'Security',
-    tags: ['Wazuh', 'SIEM', 'Security', 'Linux'],
-    icon: ShieldCheck,
-    link: '#'
-  },
+  // {
+  //   id: 3,
+  //   title: 'Analisis Deteksi Wazuh',
+  //   description: 'projects.wazuh.desc', // Gunakan key i18n
+  //   category: 'Security',
+  //   tags: ['Wazuh', 'SIEM', 'Security', 'Linux'],
+  //   icon: ShieldCheck,
+  //   link: '#'
+  // },
   {
     id: 4,
     title: 'Vintage Marketplace',
@@ -41,6 +41,6 @@ export const projects: Project[] = [
     category: 'E-Commerce',
     tags: ['Front-End', 'Vue 3', 'CSS', 'Firebase'],
     icon: ShoppingBag,
-    link: '#'
+    link: 'https://vintage-marketplace-aditya-prayogas-projects-59874c81.vercel.app/'
   }
 ]
