@@ -8,6 +8,15 @@ import type { Project } from '../types'
 
 export const projects: Project[] = [
   {
+    id: 5,
+    title: 'KanjiFlow',
+    description: 'projects.kanjiflow.desc', // Gunakan key i18n
+    category: 'Web App',
+    tags: ['Front-End', 'Vue 3', 'Tailwind CSS'],
+    icon: LayoutDashboard,
+    link: 'https://github.com/aditprayogaw/kanjiflow.git'
+  },
+  {
     id: 1,
     title: 'TimeClip AI',
     description: 'projects.timeclip.desc', // Gunakan key i18n
@@ -42,5 +51,6 @@ export const projects: Project[] = [
     tags: ['Front-End', 'Vue 3', 'CSS', 'Firebase'],
     icon: ShoppingBag,
     link: 'https://vintage-marketplace-aditya-prayogas-projects-59874c81.vercel.app/'
-  }
+  },
+  
 ]

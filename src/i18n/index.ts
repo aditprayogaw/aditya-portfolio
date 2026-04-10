@@ -61,7 +61,8 @@ const messages = {
             timeclip: { desc: 'AI video clipping platform to simplify short-form content creation.' },
             kodyakost: { desc: 'Boarding house search integrated with local culture and activities.' },
             wazuh: { desc: 'Intrusion detection system using Wazuh SIEM for IT infrastructure.' },
-            vintage: { desc: 'Vintage marketplace featuring full transactions and reviews.' }
+            vintage: { desc: 'Vintage marketplace featuring full transactions and reviews.' },
+            kanjiflow: { desc: 'Interactive kanji learning app with draw kanji features to track kanji.' }
         },
         footer: {
             cta_title: 'Have a great idea?',
@@ -133,7 +134,8 @@ const messages = {
             timeclip: { desc: 'Platform clipping video AI untuk mempermudah pembuatan konten video pendek.' },
             kodyakost: { desc: 'Pencarian kost yang terintegrasi dengan info budaya dan kegiatan lokal.' },
             wazuh: { desc: 'Sistem deteksi intrusi menggunakan Wazuh SIEM untuk infrastruktur IT.' },
-            vintage: { desc: 'Marketplace barang vintage dengan fitur transaksi dan ulasan lengkap.' }
+            vintage: { desc: 'Marketplace barang vintage dengan fitur transaksi dan ulasan lengkap.' },
+            kanjiflow: { desc: 'Aplikasi pembelajaran kanji interaktif dengan fitur gambar untuk melacak kanji.' }
         },
         footer: {
             cta_title: 'Punya ide hebat?',
@@ -205,7 +207,8 @@ const messages = {
             timeclip: { desc: '短編動画制作を簡素化するAI動画クリッピングプラットフォーム。' },
             kodyakost: { desc: '地域の文化や活動と統合された下宿検索プラットフォーム。' },
             wazuh: { desc: 'ITインフラストラクチャ向けのWazuh SIEM統合侵入検知システム。' },
-            vintage: { desc: '完全な取引とレビュー機能を備えたヴィンテージマーケットプレイス。' }
+            vintage: { desc: '完全な取引とレビュー機能を備えたヴィンテージマーケットプレイス。' },
+            kanjiflow: { desc: '漢字学習のためのインタラクティブなアプリで、漢字を追跡するための画像機能を備えています。' }
         },
         footer: {
             cta_title: '素晴らしいアイデアをお持ちですか？',
