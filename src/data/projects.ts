@@ -14,7 +14,7 @@ export const projects: Project[] = [
     category: 'Web App',
     tags: ['Front-End', 'Vue 3', 'Tailwind CSS'],
     icon: LayoutDashboard,
-    link: 'https://github.com/aditprayogaw/kanjiflow.git'
+    link: 'https://kanjiflow-sigma.vercel.app/'
   },
   {
     id: 1,
